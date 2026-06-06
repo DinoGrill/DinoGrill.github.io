@@ -1,0 +1,87 @@
+
+body {
+	background-color: #7c80a0;
+	font-family: monospace;
+	margin-left: 30px;
+}
+header .logo-header {
+  flex: 0 0 auto; /* fiksna širina logotipa */
+}
+
+header .logo {
+  max-height: 80px;
+  height: auto;
+}
+
+header h1 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.8rem;
+  margin: 0;
+}/*poravna naslov na sredino headerja, gledano tudi glede na dolžino naslova*/
+
+header .logo {
+  width: 400px;
+  height: 100px;
+  background: white;
+}
+.meni {
+	background-color: #696c90;
+}
+
+.meni ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.meni > ul > li {
+	display: inline-block;
+	position: relative;
+}
+
+.meni a {
+	display: block;
+	padding: 15px 20px;
+}
+
+.podmeni {
+	display: none;
+	position: absolute;
+	background-color: #696c90;
+}
+
+.meni li:hover .podmeni{
+	display: block;
+}
+
+h1 {
+	font-family: "gill sans mt";
+	color: #3c3e52;
+	text-align: center;
+}
+
+h2 {
+	color: #3c3e52;
+}
+
+p {
+	font-family: "gill sans mt";
+	border: 2px solid white;
+	padding: 15px;
+	background-color:#bbbccd;
+}
+
+a:hover {
+	color: #ff0000;
+}
+
+#slika1 {
+	opacity: 0.5;
+	border-radius: 10px;
+}
+
+#slika1:hover {
+	opacity: 1;
+}
