@@ -1,7 +1,7 @@
 body {
   font-family: "Gill Sans MT", sans-serif;
   background-color: #bbbccd;
-  color: #1e1f29;
+  color: #1e1f29;/* besedila */
   margin: 0;
   padding: 0;
 }
@@ -19,7 +19,7 @@ header {
 }
 
 header .logo-header {
-  flex: 0 0 auto;
+  flex: 0 0 auto;/* logotip ohranja svojo obliko */
 }
 
 /* kvadraten logotip na črnem ozadju */
@@ -33,7 +33,7 @@ header .logo {
 }
 
 header h1 {
-  position: absolute;
+  position: absolute;/* na sredini glave */
   left: 50%;
   transform: translateX(-50%);
   margin: 0;
@@ -58,7 +58,7 @@ h6 {
 ul {
   background-color: #7d80a0;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap;/* prelom v novo vrstico */
   justify-content: center;
   margin: 0;
   padding: 0;
@@ -69,9 +69,9 @@ ul li a {
   display: block;
   color: #ffffff;
   padding: 1rem 1.5rem;
-  text-decoration: none;
+  text-decoration: none;/* da ni podčrtajeev */
   font-weight: bold;
-  transition: all 0.3s ease;
+  transition: all 0.3s ease;/* učinek po prehodu miške */
 }
 
 ul li a:hover {
@@ -96,7 +96,7 @@ img {
   margin: 2rem auto;
   max-width: 90%;
   height: auto;
-  border-radius: 8px;
+  border-radius: 8px;/* zaobleni robovi */
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
@@ -133,7 +133,7 @@ footer {
 
 /* POSTAVITEV GALERIJE */
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 700px) {/* samo pri širini zaslona nad 700px */
   .slike-grid {
     display: flex;
     flex-wrap: wrap;
@@ -163,7 +163,7 @@ footer {
   }
 
   ul {
-    flex-direction: column;
+    flex-direction: column;/* meni postane navpičen */
   }
 
   ul li a {
